@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- the MAIN.CSS file is linked here -->
+  </head>
+
+  <body>
+    <div id="game">
+      <h1>The Guessing Game</h1>
+      <h2 class="hintText">Guess a number between 1-100.</h2>
+      <ul>
+        <li class="guess">-</li>
+        <li class="guess">-</li>
+        <li class="guess">-</li>
+        <li class="guess">-</li>
+      </ul>
+      <div id="input">
+        <form>
+          <input type="text" placeholder="enter guess here" maxlength="3">
+        </form> 
+        <button class="guessbtn">Go</button>
+      </div>
+      <div> 
+        <button class="resetbtn">Reset</button>
+        <button class="hintbtn">Hint</button>
+      </div>      
+    </div>
+
+    <script src="main.js"></script>
+    <!-- <script src='js/guessing-game.js'></script> -->
+    <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+  </body>
+
+</html>

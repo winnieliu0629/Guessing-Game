@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap');
+
+body {
+    font-family: 'Averia Libre', cursive;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-width: 400px;
+    border-radius: 18px;
+    background: url("https://img.freepik.com/free-photo/dirty-pattern-paint-room-block_1203-5709.jpg?w=2000") no-repeat center center fixed;
+}
+
+#game{
+    border-radius: 18px;
+    background-color: white;
+    opacity: 85%;
+    margin: 10px;
+    padding: 40px;
+    width: 700px;
+    display: block;
+    text-align: center;
+}
+
+h1{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 18px;
+    width: 40px;
+    margin: 10px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+#input{
+    position: relative;
+    margin-bottom: 40px;
+    flex-direction: column;
+    display: block;
+}
+
+input{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Averia Libre', cursive;
+}
+
+input::placeholder{
+    font-size: 25px;
+    font-family: 'Averia Libre', cursive;
+}
+
+.guessbtn{
+    position: absolute;
+    background-color: lightseagreen;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    top: 130px;
+    right: 200px;
+}
+
+button {
+    width: 80px;
+    padding: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    font-family: 'Averia Libre', cursive;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.resetbtn {
+    border: none;
+    background-color: lightslategray;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.hintbtn {
+    border: none;
+    background-color: orange;
+    color:darkslategrey;
+    border-radius: 5px;
+    font-size: 18px;
+}
